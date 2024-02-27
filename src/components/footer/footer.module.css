@@ -1,0 +1,62 @@
+
+/* 1er footer */
+
+.container{
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0F1C2B;
+    margin-top: 2vw;
+    justify-content: space-evenly;
+}
+
+.logo{
+    margin-left: 15vw;
+    size: 22px;
+}
+.contacto{
+    margin-right: 10vh;
+    font-size: 12px;
+    align-items: center;
+    gap: 10px;
+    color: #E9ECEA;
+}
+.contacto li{
+    margin-top: 2px;
+}
+
+.horarios {
+    margin-right: 10vh;
+    font-size: 12px;
+    align-items: center;
+    gap: 10px;
+    color: #E9ECEA;
+}
+
+.icons{
+    width: 50px;
+    justify-content: space-between;
+    gap: 20px;
+    color: #E9ECEA;
+}
+
+/* 2do footer */
+
+.derechos {
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #E9ECEA;
+    justify-content: space-evenly;
+}
+
+.fontsderechos{
+    margin-right: 10vh;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #020205;
+}

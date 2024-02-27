@@ -1,5 +1,13 @@
 import Link from "next/link";
 import React from "react";
+import styles from "./navbar.module.css";
+import logo from "../../../public/logogris.png";
+import Image from "next/image";
+import {
+  AiOutlineInstagram,
+  AiOutlineLinkedin,
+  AiOutlineTwitter,
+} from "react-icons/ai";
 
 const links = [
   {
@@ -26,9 +34,22 @@ const links = [
 
 const Navbar = () => {
   return (
-    <div>
-      <Link href="/">Sono Machine</Link>
-      <div>
+    <div className={styles.container}>
+      <div className={styles.logo}>
+        <Image src={logo} width={150} />
+      </div>
+      <div className={styles.icons}>
+        <a href="https://www.linkedin.com/in/thomas-romero-05a508245/">
+          <AiOutlineInstagram />
+        </a>
+        <a href="https://www.linkedin.com/in/thomas-romero-05a508245/">
+          <AiOutlineLinkedin />
+        </a>
+        <a href="https://www.linkedin.com/in/thomas-romero-05a508245/">
+          <AiOutlineTwitter />
+        </a>
+      </div>
+      <div className={styles.links}>
         {links.map((link) => (
           <Link key={link.id} href={link.url}>
             {link.title}
