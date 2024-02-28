@@ -1,0 +1,28 @@
+/* 2do footer */
+
+
+.derechos {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #E9ECEA;
+    justify-content: space-evenly;
+}
+
+.fontsderechos {
+    margin-right: 10vh;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #020205;
+}
+
+.logo {
+    margin-left: 15vw;
+    size: 22px;
+}

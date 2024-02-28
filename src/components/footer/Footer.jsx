@@ -26,20 +26,11 @@ const Footer = () => {
             <b>TEL:</b> 11-6999-7480 / 15-5712-2633
           </li>
           <li>
-            <b>MAIL:</b> Sonomacchine@gmail.com
+            <b>MAIL:</b> sonomacchine@gmail.com
           </li>
           <li>
             <b>DIREC:</b> Gral.Acha 277 - Quilmes, Buenos Aires
           </li>
-        </div>
-      </div>
-
-      <div className={styles.derechos}>
-        <div className={styles.fontsderechos}>
-          ©2024 Sono Macchine. Todos los derechos reservados.
-        </div>
-        <div className={styles.logo}>
-          <Image src={logo} width={150} />
         </div>
       </div>
     </div>
