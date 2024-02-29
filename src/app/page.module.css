@@ -1,0 +1,40 @@
+.container{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    margin: 5vw; /* Si come mucho sacalo  */
+}
+
+.item{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.title{
+    font-size: 72px;
+    background: linear-gradient(to bottom, #0F1C2B, #cee2f42c);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.img{
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+}
+
+.desc{
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.button{
+    padding: 15px;
+    cursor: pointer;
+    background-color: #0F1C2B;
+    border-radius: 5px;
+    width: max-content;
+    color: #E9ECEA;
+}
